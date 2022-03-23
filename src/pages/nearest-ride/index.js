@@ -7,7 +7,7 @@ const NearestRides =()=>{
     // const day2 = day += 1;
     const month = date.getMonth();
     return(
-        <div className="w-full bg-red flex justify-center">
+        <div className="w-full flex justify-center">
            <div className="text-2xl text-white w-10/12 items-center " > {data.Rides.map((Ride) =>  {
             //    var users = data.map
             //   var closest = Ride.reduce(function(prev, curr) {
@@ -15,7 +15,7 @@ const NearestRides =()=>{
             //   });
                return(
                    <div key={Ride.id} className="text-white  text-left flex flex-col-reverse md:flex-row justify-around bg-black rounded-md  mt-3 p-5 ">
-                       <div className="w-44">
+                       <div className="w-full">
                             <img src={image2} ></img>
                        </div>
                        <div className="flex flex-col justify-start" >

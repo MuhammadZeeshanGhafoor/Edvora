@@ -18,6 +18,9 @@ code {
 .bg-color{
   background: #242425;
 }
+.bg-color2{
+  background: #2a2a2be3;
+}
 .active{
   text-decoration: underline;
   /* background: #000; */
